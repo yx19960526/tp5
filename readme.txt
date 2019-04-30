@@ -34,4 +34,4 @@ git 暂存区 stage
 	git checkout -- 文件名 如果是乱修改了工作区，而没有修改缓存区 就是回到缓存区最近的版本
 	
 	
-	
+	hhhhhhhhhhhhhh
