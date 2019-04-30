@@ -7,7 +7,9 @@ git 常用命令
 	git clone 从仓库检出项目
 	git status  获取当前git工作的状态
 	git diff  显示与仓库文件的不同
-	 
+	git log 显示日志	
+    git reflog	显示最近操作命令
+	git reset --hard+版本号 回退版本	
 git 步奏
 	
 	新建文件 进行编写
