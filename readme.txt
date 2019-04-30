@@ -37,3 +37,4 @@ git 分支
 	git checkout -b  +分支名 创建并切换到某个分支
 	git branch +name 新建分支s
 	git merge + name 合并到某个分支
+	git merge --no-ff -m "merge with no-ff" name 带合并提示和合并历史的分支
