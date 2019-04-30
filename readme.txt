@@ -19,6 +19,7 @@ git 常用命令
 	git branch -d +分支名 删除分支
 	git checkout -b +分支名 创建并切换到某个分支
 	git merge + name合并到某个分支
+	master是主干道，分支就是正在修的路 修好了就可以合到主干道了
 git 步奏
 	
 	新建文件 进行编写
