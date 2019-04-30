@@ -20,6 +20,8 @@ git 常用命令
 	git checkout -b +分支名 创建并切换到某个分支
 	git merge + name合并到某个分支
 	master是主干道，分支就是正在修的路 修好了就可以合到主干道了
+	
+	
 git 步奏
 	
 	新建文件 进行编写
@@ -33,5 +35,5 @@ git 暂存区 stage
 	
 	git checkout -- 文件名 如果是乱修改了工作区，而没有修改缓存区 就是回到缓存区最近的版本
 	
+git 解决冲突
 	
-	hhhhhhhhhhhhhh
