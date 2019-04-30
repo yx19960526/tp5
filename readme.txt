@@ -11,6 +11,14 @@ git 常用命令
     git reflog	显示最近操作命令
 	git reset --hard+版本号 回退版本
 	git rm +文件名 删除文件
+	git push origin master 推送到对应的分支上
+	git clone +项目url 检出项目
+	git branch +name 新建分支
+	git checkout +分支名 切换到某个分支
+	git checkout 
+	git branch -d +分支名 删除分支
+	git checkout -b +分支名 创建并切换到某个分支
+	git merge + name合并到某个分支
 git 步奏
 	
 	新建文件 进行编写
@@ -23,4 +31,6 @@ git 暂存区 stage
 	git commit 提交文件 就是把文件从暂存区提交到了项目的代码库也就是分支 master
 	
 	git checkout -- 文件名 如果是乱修改了工作区，而没有修改缓存区 就是回到缓存区最近的版本
+	
+	
 	
