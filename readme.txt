@@ -1,7 +1,6 @@
 git 常用命令 
 	git commit -m 'XXXXXX' 带注释的提交 
-	git branch  新建分支
-	git checkout 选择分支
+	
 	git add   提交
 	git add -a 提交所有
 	git clone 从仓库检出项目
@@ -13,15 +12,9 @@ git 常用命令
 	git rm +文件名 删除文件
 	git push origin master 推送到对应的分支上
 	git clone +项目url 检出项目
-	git branch +name 新建分支
-	git checkout +分支名 切换到某个分支
-	git checkout 
-	git branch -d +分支名 删除分支
-	git checkout -b +分支名 创建并切换到某个分支
-	git merge + name合并到某个分支
 	master是主干道，分支就是正在修的路 修好了就可以合到主干道了
 	
-	9999999999999999
+	
 
 git 步奏
 	
@@ -37,5 +30,10 @@ git 暂存区 stage
 	git checkout -- 文件名 如果是乱修改了工作区，而没有修改缓存区 就是回到缓存区最近的版本
 	
 git 解决冲突
-
-	
+	git log --graph 查看git日志
+git 分支
+	git branch -d    +分支名 删除分支
+	git checkout     +分支名 切换到某个分支
+	git checkout -b  +分支名 创建并切换到某个分支
+	git branch +name 新建分支s
+	git merge + name 合并到某个分支
