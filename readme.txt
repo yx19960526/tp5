@@ -40,3 +40,6 @@ git 分支
 	git merge --no-ff -m "merge with no-ff" name 带合并提示和合并历史的分支
 	git checkout -b dev origin/dev 拉取远程分支
 	git push origin dev 上传到远程分支
+	
+git bug 
+	保存之前的工作区，然后切到需要修复的分支，新建立一个分支，修复完成合并分支。
