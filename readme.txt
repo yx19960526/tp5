@@ -14,6 +14,13 @@ git 常用命令
 	git clone +项目url 检出项目
 	master是主干道，分支就是正在修的路 修好了就可以合到主干道了
 	
+git 暂存命令
+	git stash	暂存当前工作分支的内容
+	git stash list  显示stash的所有内容
+	git stash apply	恢复到工作区，并不会删除stash
+	git stash pop	恢复stash同时删除stash
+
+	
 	
 
 git 步奏
