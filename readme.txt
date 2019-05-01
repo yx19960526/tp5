@@ -20,7 +20,9 @@ git 暂存命令
 	git stash apply	恢复到工作区，并不会删除stash
 	git stash pop	恢复stash同时删除stash
 
-	
+git feature
+	强制销毁不需要上传的分支
+		
 	
 
 git 步奏
